@@ -15,3 +15,7 @@
 ---
 
 [Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile)
+
+---
+
+[Ссылка на проект](https://darnedy.github.io/russian-travel/index.html)
