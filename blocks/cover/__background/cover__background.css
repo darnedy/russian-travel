@@ -1,7 +1,7 @@
 .cover__background {
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
+  /* min-height: 740px; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -12,6 +12,10 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  padding-top: 245px;
+  padding-bottom: 245px;
+  /* padding-top: calc(((100vw / 1.6) - 250px) / 2);
+  padding-bottom: calc(((100vw / 1.6) - 250px) / 2); */
 }
 
 .cover__background::before {
@@ -33,18 +37,48 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    min-height: 640px;
+    /* max-width: 1024px; */
+    padding-top: calc(((100vw / 1.6) - 250px) / 2);
+    padding-bottom: calc(((100vw / 1.6) - 250px) / 2);
   }
-}
+} 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .cover__background {
-    min-height: 480px;
+    /* max-width: 1024px; */
+    padding-top: calc(((100vw / 1.6) - 134px) / 2);
+    padding-bottom: calc(((100vw / 1.6) - 134px) / 2);
+  }
+} 
+
+/* @media screen and (max-width: 1279px) {
+  .cover__background {
+    max-width: 1024px;
+    padding-top: 195px;
+    padding-bottom: 195px;
+  }
+} */
+
+/* @media screen and (max-width: 1023px) {
+  .cover__background {
+    max-width: 768px;
+    padding-top: 115px;
+    padding-bottom: 115px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    min-height: 200px;
+    max-width: 500px;
+    padding-top: 89px;
+    padding-bottom: 89px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .cover__background {
+    max-width: 320px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+} */
